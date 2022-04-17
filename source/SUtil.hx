@@ -23,6 +23,7 @@ class SUtil
     private static var aDir:String = null;
     private static var sPath:String = AndroidTools.getExternalStorageDirectory();  
     private static var grantedPermsList:Array<Permissions> = AndroidTools.getGrantedPermissions();  
+    private static var foldersArr:Array<String> = ["assets", "mods"];
     #end
 
     static public function getPath():String
